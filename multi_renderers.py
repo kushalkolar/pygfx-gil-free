@@ -1,4 +1,5 @@
 # works but requires small tweaks to pygfx renderer so that the renders are flushed with alpha blending
+# run with PYTHON_GIL=0
 
 from concurrent.futures import ThreadPoolExecutor, wait
 
